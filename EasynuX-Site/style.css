@@ -1,18 +1,70 @@
 body {
+  font-family: arial, sans-serif;
   height: 100%;
   width: 100%;
-  background-color: #424242
+  background-color: #424242;
+  margin: 0 auto;
+  padding: 0;
+  transition: all .4s;
 }
-.BordaMain {
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
+}
+/*-------------------------------------------------------*/
+.Title {
   -webkit-text-fill-color: #00FF33;
   margin: 0%;
   background-image: url(Imagens/ShellScript.jpg);
   background-size: 100%;
-  /*background-color: rgb(39, 39, 39);*/
   opacity: 90%;
   height: 80px;
   text-align: center;
 }
-.CorpoMain {
+.Title a{
   -webkit-text-fill-color: #00FF33;
 }
+.Title a:hover {
+  -webkit-text-fill-color: #FF4F00;
+  text-decoration: none;
+}
+.Title h3 {
+  -webkit-text-fill-color: black;
+}
+.Title a:hover h3{
+  -webkit-text-fill-color: #FF4F00;
+}
+/*-------------------------------------------------------*/
+.Menubar {
+  -webkit-text-fill-color: #FFFFFF;
+  font-family: arial, sans-serif;
+  text-align: center;
+  background-color: #000000;
+}
+.Menubar li{
+  padding: 10px;
+  display: inline-block;
+}
+.Menubar a:visited{
+  -webkit-text-fill-color: #FFFFFF;
+}
+.Menubar a:hover {
+  -webkit-text-fill-color: #00FF33;
+  text-decoration: none;
+}
+/*-------------------------------------------------------*/
+.CorpoMain {
+  -webkit-text-fill-color: #FFFFFF;
+}
+.CorpoMain a:visited {
+  -webkit-text-fill-color: #FFFFFF;
+}
+.CorpoMain a:hover {
+  -webkit-text-fill-color: #00FF33;
+}
+.CorpoMain li{
+  list-style: none;
+}
+/*-------------------------------------------------------*/
