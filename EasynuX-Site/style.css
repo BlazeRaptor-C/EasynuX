@@ -4,7 +4,7 @@ body {
   width: 100%;
   background-color: #424242;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   transition: all .4s;
 }
 body a {
@@ -41,7 +41,7 @@ body a:hover {
   -webkit-text-fill-color: #FFFFFF;
   font-family: arial, sans-serif;
   text-align: center;
-  background-color: #000000;
+  background-color: rgb(37, 37, 37);
 }
 .Menubar li{
   padding: 10px;
@@ -68,3 +68,33 @@ body a:hover {
   list-style: none;
 }
 /*-------------------------------------------------------*/
+.abasmenu {
+  background-color: rgb(37, 37, 37);
+  padding: 5px;
+}
+/*-------------------------------------------------------*/
+.BotaoDownload a {
+  display:inline-block;
+  opacity: 60%;
+}
+.BotaoDownload img {
+  margin: 0px;
+  height: 60px;
+}
+.BotaoDownload a:hover {
+  opacity: 100%;
+}
+/*-------------------------------------------------------*/
+.imgesquerda {
+  align-items: left;
+}
+/*-------------------------------------------------------*/
+.Textoalerta {
+  -webkit-text-fill-color: rgb(255, 41, 41);
+}
+#verdeclaro {
+  -webkit-text-fill-color: rgb(141, 255, 164);
+}
+.Textodestaque {
+  -webkit-text-fill-color: rgb(141, 255, 164);
+}
